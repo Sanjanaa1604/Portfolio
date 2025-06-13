@@ -1,0 +1,103 @@
+<style> 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(243, 150, 74, 0.884);
+  border-radius: 40px;
+  margin-bottom: 30px;
+  
+}
+
+body {
+  background: #5c0707 ;
+  color: #7e0404;
+  padding: 20px;
+  font-size: x-large;
+}
+
+header h1 {
+  font-size: 70px;
+  color: #5c0707;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: rgba(243, 150, 74, 0.884);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  
+}
+
+nav a {
+  
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  background-color: #940b0b;
+  border-radius: 8px;
+
+}
+
+section {
+  background:rgba(243, 150, 74, 0.884) ;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: wheat;
+  font-size: 1.8rem;
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+section li, section p {
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+#contact p {
+  font-size: larger;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 20px; 
+  
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 80%;
+  border: 4px solid #e07b00;
+  ;
+}
+
+.tq{
+    text-align: center;
+    color: aliceblue;
+}
+</style>
+
